@@ -21,7 +21,6 @@ colors. The tmux status bar follows too if you use the
 
 ## Preview
 
-<!-- TODO: replace with a real desktop screenshot -->
 ![Preview](preview.png)
 
 ## Usage
