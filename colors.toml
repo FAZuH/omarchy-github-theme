@@ -1,0 +1,51 @@
+# GitHub Dark — from @primer/primitives v11.10.0 dist/css/functional/themes/dark.css
+mode = "dark"
+
+# --fgColor-accent
+accent = "#4493f8"
+# --bgColor-emphasis
+selection = "#3d444d"
+# --fgColor-disabled / --ansi-blackBright
+muted = "#656c76"
+
+# --bgColor-default
+background = "#0d1117"
+dark_background = "#0a0d12"
+# --bgColor-inset
+darker_background = "#010409"
+# --bgColor-muted
+lighter_background = "#151b23"
+
+# --fgColor-default
+foreground = "#f0f6fc"
+# --fgColor-muted
+dark_foreground = "#9198a1"
+light_foreground = "#d0d7de"
+# --fgColor-onEmphasis
+bright_foreground = "#ffffff"
+
+hyprland_active_border = "rgba(4493f8ee) rgba(f0f6fcee)"
+# classic --borderColor-default
+hyprland_inactive_border = "rgb(48,54,61)"
+active_border_color = "#4493f8"
+active_tab_background = "#4493f8"
+
+# --ansi-*
+red = "#ff7b72"
+yellow = "#d29922"
+# --fgColor-severe
+orange = "#db6d28"
+green = "#3fb950"
+cyan = "#39c5cf"
+blue = "#58a6ff"
+magenta = "#be8fff"
+# --data-brown-color-emphasis
+brown = "#94774c"
+
+# --ansi-*Bright
+bright_red = "#ffa198"
+bright_yellow = "#e3b341"
+bright_green = "#56d364"
+bright_cyan = "#56d4dd"
+bright_blue = "#79c0ff"
+bright_magenta = "#d2a8ff"
