@@ -37,12 +37,11 @@ theme reinstalls.
 
 ## Docs
 
-- [Wallpaper sources & licenses](LICENSES.md) — where each bundled image comes from and under which license
+- [Wallpaper sources & rights](LICENSES.md) — what the bundled images are and who owns them
 - [Omarchy theming](https://github.com/basecamp/omarchy/blob/main/docs/theming.md) — how themes, backgrounds, and hooks work
 - [Primer color tokens](https://github.com/primer/primitives) — the upstream GitHub design tokens this theme is derived from
 
 ## License
 
-[MIT](LICENSE) for the theme configuration. The bundled wallpapers keep their
-own licenses — see [LICENSES.md](LICENSES.md). The GitHub logo is
-© GitHub, Inc., used under [CC-BY-4.0](https://github.com/logos).
+[MIT](LICENSE) for the theme configuration. The bundled wallpapers are
+third-party art — rights remain with their owners, see [LICENSES.md](LICENSES.md).
