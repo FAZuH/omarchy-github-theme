@@ -36,6 +36,8 @@ theme reinstalls.
 
 ## Docs
 
+- [Design](docs/design.md) — Primer token mapping, wallpaper curation, and preview assets
+- [Usage](docs/usage.md) — backgrounds, updating the theme, lock screen
 - [Wallpaper sources & rights](LICENSES.md) — what the bundled images are and who owns them
 - [Omarchy theming](https://github.com/basecamp/omarchy/blob/main/docs/theming.md) — how themes, backgrounds, and hooks work
 - [Primer color tokens](https://github.com/primer/primitives) — the upstream GitHub design tokens this theme is derived from
