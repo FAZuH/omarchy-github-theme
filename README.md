@@ -1,6 +1,10 @@
+<div align="center">
+
 # omarchy-github-theme
 
-**GitHub Dark theme for Omarchy — official Primer v11 tokens, from terminal to tiling.**
+**GitHub Dark theme for Omarchy.**
+
+</div>
 
 <hr>
 
