@@ -41,6 +41,17 @@ Two keys are derived, not tokens: `dark_background` (`#0a0d12`, one step
 below default for layered surfaces) and `light_foreground` (`#d0d7de`, a
 midpoint for secondary text).
 
+## Icon layer
+
+`icons.theme` names the GTK icon theme applied via `omarchy-theme-set-gnome`
+at every `omarchy theme set`. It is `Yaru-blue-dark`, not the `Yaru-blue`
+most Omarchy themes ship, for one visible reason: Yaru's non-symbolic panel
+icons (`audio-volume-*`) are filled `#333` for light panels, so apps that
+request the non-symbolic name — pavucontrol's mute button, for one — render
+a glyph invisible on dark surfaces. The `-dark` variant resolves those names
+into Yaru-dark's `#fff` panel set. Symbolic icons are unaffected either way;
+GTK recolors them from the foreground.
+
 ## Wallpapers
 
 The bundled set is personal curation, not GitHub artwork: four Arknights
