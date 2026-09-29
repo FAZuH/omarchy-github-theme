@@ -1,4 +1,4 @@
-# GitHub Dark — from @primer/primitives v11.10.0 dist/css/functional/themes/dark.css
+# GitHub Dark (from @primer/primitives v11.10.0 dist/css/functional/themes/dark.css)
 mode = "dark"
 
 # --fgColor-accent
@@ -25,10 +25,7 @@ light_foreground = "#d0d7de"
 bright_foreground = "#ffffff"
 
 hyprland_active_border = "rgba(4493f8ee) rgba(f0f6fcee)"
-# classic --borderColor-default
 hyprland_inactive_border = "rgb(48,54,61)"
-active_border_color = "#4493f8"
-active_tab_background = "#4493f8"
 
 # --ansi-*
 red = "#ff7b72"
