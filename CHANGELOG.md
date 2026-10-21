@@ -1,4 +1,11 @@
-## 0.1.0 (2026-09-14)
+## [0.1.1](https://github.com/FAZuH/omarchy-github-theme/compare/v0.1.0...v0.1.1) (2026-10-21)
+
+
+### Features
+
+* add dev.sh thumbnail capture module ([9cb5382](https://github.com/FAZuH/omarchy-github-theme/commit/9cb53829cdbdd4d2a9b0488a41f92c86f73214ac))
+
+## [0.1.0](https://github.com/FAZuH/omarchy-github-theme/compare/e32b88984711e69519ed5169ac9e3869c1edb9e5...v0.1.0) (2026-09-14)
 
 
 ### Features
