@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/FAZuH/omarchy-github-theme/compare/v0.1.1...v0.1.2) (2026-10-21)
+
+
+### Features
+
+* bundle the full wallpaper set ([29e4b32](https://github.com/FAZuH/omarchy-github-theme/commit/29e4b3287996563e758599c5472c2a521cd751fe))
+
 ## [0.1.1](https://github.com/FAZuH/omarchy-github-theme/compare/v0.1.0...v0.1.1) (2026-10-21)
 
 
