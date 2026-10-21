@@ -6,12 +6,12 @@ Beyond the [README](../README.md) happy path.
 
 ```sh
 omarchy theme bg next      # cycle bundled + personal wallpapers
-omarchy theme bg-switcher  # pick visually
-omarchy theme bg current   # what is showing now
+omarchy theme bg-switcher
+omarchy theme bg current
 ```
 
 The cycle merges two pools: the theme's `backgrounds/` and your own files
-in `~/.config/omarchy/backgrounds/github/`. Put personal wallpapers there —
+in `~/.config/omarchy/backgrounds/github/`. Put personal wallpapers there:
 that directory survives theme reinstalls and is never published.
 
 ## Updating
@@ -25,4 +25,4 @@ re-apply with `omarchy theme set github`. Your wallpapers in
 ## Lock screen
 
 Lock with `omarchy system lock`. The password prompt and blur follow the
-theme automatically; `unlock.png` supplies the lock-screen mark.
+theme automatically.

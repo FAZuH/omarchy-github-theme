@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Development helper script
 # Usage: ./dev.sh [command1] [command2] ...
 #   commands: docs | all | help
@@ -42,8 +42,8 @@ cmd_docs() {
     inf "Compiling Mermaid diagrams..."
 
     if ! command -v mmdc &> /dev/null; then
-        wrn "Mermaid CLI not found. Installing..."
-        npm install -g @mermaid-js/mermaid-cli
+        err "mmdc not found — install @mermaid-js/mermaid-cli, then re-run"
+        return 1
     fi
 
     mkdir -p docs/diagrams
@@ -79,7 +79,15 @@ discover_modules() {
         for f in ${SCRIPT_DIR}/${pat}; do
             [ -f "$f" ] || continue
             inf "Loading module: $(basename "$f")"
-            source "$f"
+            # A module that fails to load must not take dev.sh down with it:
+            # the remaining modules and every built-in command still work, and
+            # the missing name is the only thing the agent has to act on.
+            # A module that calls `exit` at load time still ends the script -
+            # that is the shell, not this guard, so a module must not exit
+            # outside its own command function.
+            if ! source "$f"; then
+                wrn "module failed to load, skipping: $f"
+            fi
         done
         shopt -u nullglob
     done
